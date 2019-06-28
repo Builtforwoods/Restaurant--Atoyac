@@ -1,0 +1,59 @@
+nav{
+    width: 1900px;
+    height: 75px;
+    background-color: #42d4f4;
+}
+#Titulo{
+   
+    font-size: 80px;
+}
+nav {
+    background-color: #303030;
+    color: #EFEFEF; }
+    nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      nav .container .location,
+      nav .container .menu-button {
+          font-size:40px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        padding: 0.5em 1.00em;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: pointer; }
+
+        .nav-menu {
+            background-color: #535353;
+            color: #EFEFEF;
+            display: flex;
+            justify-content: center; }
+            .nav-menu .container {
+              padding: 1.5em;
+              display: flex; }
+              .nav-menu .container ul {
+                list-style: none; }
+                .nav-menu .container ul li {
+                  padding: 0.25em 2em; }
+                  .nav-menu .container ul li:first-child {
+                    text-transform: uppercase;
+                    color: #C3FF00;
+                    letter-spacing: 0.05em; }
+
+
+body{
+    background-image: url("assets/backygroundy.jpg");
+    background-size: 100%;
+}
+#itemDay{
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    position: right;
+    color: white;
+    font-size:30px;
+    float: right;
+}

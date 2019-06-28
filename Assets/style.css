@@ -1,0 +1,10 @@
+.body{
+    background-image: url("http://younggenji.tumblr.com/post/177329640164/meka");
+}
+.main-nav{
+  position: top;
+}
+.body{
+  background-size:contain;
+  background attachment:fixed;
+}
