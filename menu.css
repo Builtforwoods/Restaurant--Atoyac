@@ -24,4 +24,23 @@
 }
 #leMenuCategories{
     float: left;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover,
+a:active {
+    text-decoration: none;
+    color: white;
+}
+#menuSubCategory{
+    height: 50px;
+    width: 600px;
+    background-color: white;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    vertical-align: auto;
 }

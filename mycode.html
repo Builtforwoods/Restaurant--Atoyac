@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Our Source Code</title>
+    <link href="mycode.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="codeBox">
+        <!-- HOME PAGE -->
+        <h1>Home Page</h1>
+        <xmp>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <meta charset="utf-8">
+                <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+                <link rel="stylesheet" type="text/css" href="style.css">
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                    crossorigin="anonymous"></script>
+
+            </head>
+
+            <body>
+                <!-- El Nav Bar -->
+                <nav>
+                    <div class="container">
+                        <span id="Titulo"><a href="index.html"><b>Restaurant<br> Atoyac</b></a></span>
+
+                        <a href="menu.html"><span class="menu-button">Menu</span></a>
+                        <a href="location.html"><span class="location">Location</a></span>
+                        <h1></h1>
+                    </div>
+                </nav>
+
+                <hr>
+
+                <!-- MENU ITEM OF THE DAY -->
+                <div id="firstDiv">
+
+                    <div id="itemDay">
+                        <h1>Special of the Day:</h1>
+                        <hr>
+                        <h1 id="theSpecial"></h1>
+                    </div>
+                </div>
+
+                <div id="restaurantLocation">
+                    <h1>Where?</h1>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.557771441057!2d-112.10082518450966!3d33.538881652054656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b6cd91c691e6b%3A0xe4eab0a370866043!2sRestaurant%20Atoyac%20Estilo%20Oaxaca!5e0!3m2!1sen!2sus!4v1574027628247!5m2!1sen!2sus"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        display="block"></iframe>
+                </div>
+            </body>
+
+            </html>
+        </xmp>
+
+    </div>
+    <!-- Home Page Css -->
+    <div class="codeBox">
+        <h1>Home Page Css</h1>
+        <xmp>
+            nav{
+            width: 1900px;
+            height: 75px;
+            background-color: #42d4f4;
+            }
+            #Titulo{
+            padding-left: 15px;
+            font-size: 30px;
+            padding-bottom: 15px;
+            }
+            nav {
+            background-color: rgb(255, 46, 46);
+            color: #EFEFEF; }
+            nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+            nav .container .location,
+            nav .container .menu-button {
+            font-size:40px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            padding: 0.5em 1.00em;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            cursor: pointer; }
+
+            .nav-menu {
+            background-color: #535353;
+            color: #EFEFEF;
+            display: flex;
+            justify-content: center; }
+            .nav-menu .container {
+            padding: 1.5em;
+            display: flex; }
+            .nav-menu .container ul {
+            list-style: none; }
+            .nav-menu .container ul li {
+            padding: 0.25em 2em; }
+            .nav-menu .container ul li:first-child {
+            text-transform: uppercase;
+            color: #C3FF00;
+            letter-spacing: 0.05em; }
+
+
+            body{
+            background-image: url("assets/backygroundy.jpg");
+            background-size: 100%;
+            }
+            #itemDay{
+            width: 500px;
+            height: 500px;
+            border: 1px solid white;
+            position: right;
+            color: white;
+            font-size:30px;
+            float: right;
+            background-color:#ebb538;
+            display: block;
+            }
+            #restaurantLocation{
+            width: 1000px;
+            height: 700px;
+            background-color: #535353;
+            display: block;
+            margin: 0 auto;
+            padding-top: 15px;
+            padding-left: 15px;
+            }
+            #firstDiv{
+            height: 600px;
+            width: 1000px;
+            margin: 0 auto;
+
+            display: block;
+            }
+            #restaurantImage{
+            height: 600px;
+            width: 1000px;
+            background-image: url(Assets/IMG_0434.jpg);
+            background-size: 100%;
+            }
+            body{
+            background-repeat: no-repeat;
+            }
+            a{
+            text-decoration: none;
+            color: white;
+            }
+            a:hover,
+            a:active {
+            text-decoration: none;
+            color: white;
+            }
+
+        </xmp>
+    </div>
+
+
+    <!-- Menu Page -->
+    <div class="codeBox">
+        <h1>Menu Page</h1>
+        <xmp>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <link rel="stylesheet" type="text/css" href="style.css">
+                <link rel="stylesheet" type="text/css" href="menu.css">
+                <script src="https://code.jquery.com/jquery-3.4.1.js"
+                    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+                <script src="Menu.js"></script>
+            </head>
+
+            <body>
+                <nav>
+                    <div class="container">
+                        <a href="index.html"><span id="Titulo"><b>Restaurant<br>Atoyac</b></span></a>
+
+                        <a href="menu.html"><span class="menu-button">Menu</span></a>
+                        <a href="location.html"><span class="location">Location</a></span>
+                        <h1></h1>
+                    </div>
+                </nav>
+
+
+                <div id="leMenuCategories">
+                    <h1 class="itemBox" id="drinks"><img src="cola.png" class="menuImagen">Drinks</h1>
+                    <h1 class="itemBox" id="tacos"><img src="tacothing.png" class="menuImagen">Tacos</h1>
+                    <h1 class="itemBox" id="tortas"><img src="torta.png" class="menuImagen">Tortas</h1>
+                    <h1 class="itemBox" id="platos"><img src="riceplate.png" class="menuImagen">Platos</h1>
+                    <h1 class="itemBox" id="sides"><img src="sides.png" class="menuImagen"> Sides</h1>
+
+                </div>
+
+                <div id="middleMenu">
+
+                </div>
+            </body>
+
+            </html>
+
+        </xmp>
+    </div>
+
+    <div class="codeBox">
+        <h1>Menu Css</h1>
+        <xmp>
+            .menuImagen{
+            height: 35px;
+            width: 35px;
+            }
+            .itemBox{
+            height: 80px;
+            width: 250px;
+            background-color: bisque;
+            padding-left: 10px;
+            padding-top: 5px;
+            margin-left: 50px;
+
+            }
+            #middleMenu{
+            float: right;
+            margin-right: 100px;
+            }
+            #addOnDiv{
+            background-color: white;
+            width: 600px;
+            height: 500px;
+            padding-left: 10px;
+            padding-top: 3px;
+            }
+            #leMenuCategories{
+            float: left;
+            cursor: pointer;
+            }
+
+            a{
+            text-decoration: none;
+            color: white;
+            }
+            a:hover,
+            a:active {
+            text-decoration: none;
+            color: white;
+            }
+            #menuSubCategory{
+            height: 50px;
+            width: 600px;
+            background-color: white;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            vertical-align: auto;
+            }
+        </xmp>
+    </div>
+
+    <!-- Location -->
+    <div class="codeBox">
+        <h1>Location html page</h1>
+        <xmp>
+            <!DOCTYPE html>
+            <html>
+
+            <head>
+                <link rel="stylesheet" type="text/css" href="style.css">
+            </head>
+
+            <body>
+                <nav>
+                    <div class="container">
+                        <a href="index.html"><span id="Titulo"><b>Restaurant<br>Atoyac</b></span></a>
+
+                        <a href="menu.html"><span class="menu-button">Menu</span></a>
+                        <a href="location.html"><span class="location">Location</a></span>
+                        <h1></h1>
+                    </div>
+                </nav>
+
+                <div id="restaurantLocation">
+                    <h1>Where?</h1>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.557771441057!2d-112.10082518450966!3d33.538881652054656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b6cd91c691e6b%3A0xe4eab0a370866043!2sRestaurant%20Atoyac%20Estilo%20Oaxaca!5e0!3m2!1sen!2sus!4v1574027628247!5m2!1sen!2sus"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        display="block"></iframe>
+                </div>
+            </body>
+
+            </html>
+        </xmp>
+    </div>
+
+    <div class="codeBox">
+        <h1>Javascript</h1>
+
+        <br><br>
+        <h1>Home Javascript Page</h1>
+        <xmp>
+
+        </xmp>
+        <h1>Menu.Js</h1>
+        <xmp>
+            $(document).ready(function () {
+            console.log("Agnes");
+            $("#drinks").click(function () {
+            $("#middleMenu").html("<div id='menuSubCategory'>
+                <h1>Drinks</h1>
+            </div>");
+            $("#middleMenu").append("<div id='addOnDiv'>
+                <h2>Horchata</h2>
+            </div>");
+
+            });
+            $("#tacos").click(function () {
+            $("#middleMenu").html("<div id='menuSubCategory'>
+                <h1>Tacos</h1>
+            </div>");
+            $("#middleMenu").append("<div id='addOnDiv'>
+                <h2>Pastor</h2>
+                <h2>Asada</h2>
+                <h2>Fish</h2>
+                <h2>Tripa</h2>
+            </div>");
+
+            });
+            $("#tortas").click(function () {
+            $("#middleMenu").html("<div id='menuSubCategory'>
+                <h1>Tortas</h2>
+            </div>");
+            $("#middleMenu").append("<div id='addOnDiv'>
+                <h2>Asada</h2>
+                <h2>Milanesa</h2>
+            </div>");
+            });
+            $("#platos").click(function () {
+            $("#middleMenu").html("<div id='menuSubCategory'>
+                <h1>Platos</h2>
+            </div>");
+            $("#middleMenu").append("<div id='addOnDiv'>
+                <h2>Mole con Pollo</h2>
+                <h2>Carne Asada con Arroz</h2>
+            </div>");
+            });
+            $("#tlayudas").click(function () {
+            $("#middleMenu").html("<div id='menuSubCategory'>
+                <h1>Tlayudas</h2>
+            </div>");
+            $("#middleMenu").append("<div id='addOnDiv'>
+                <h2>Tlayuda Regular</h2>
+                <h2>Tlayuda con Asada</h2>
+            </div>");
+            });
+            $("#sides").click(function () {
+            $("#middleMenu").html("<div id='menuSubCategory'>
+                <h1>Sides</h2>
+            </div>");
+            $("#middleMenu").append("<div id='addOnDiv'>
+                <h2>Rice</h2>
+                <h2>French Fries</h2>
+            </div>");
+            });
+            });
+
+        </xmp>
+
+
+    </div>
+</body>
+
+</html>

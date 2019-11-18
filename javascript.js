@@ -1,3 +1,3 @@
-$( document ).ready(){
-$("theSpecial").html()
-}
+$(document).ready(function () {
+
+});
