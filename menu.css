@@ -1,0 +1,12 @@
+.menuImagen{
+    height: 35px;
+    width: 35px;
+}
+#itemBox{
+    height: 80px;
+    width: 250px;
+    background-color: bisque;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-left: 50px;
+}

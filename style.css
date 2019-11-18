@@ -4,11 +4,12 @@ nav{
     background-color: #42d4f4;
 }
 #Titulo{
-   
-    font-size: 80px;
+   padding-left: 15px;
+    font-size: 30px;
+    padding-bottom: 15px;
 }
 nav {
-    background-color: #303030;
+    background-color:  rgb(255, 46, 46);
     color: #EFEFEF; }
     nav .container {
       display: flex;
@@ -56,4 +57,31 @@ body{
     color: white;
     font-size:30px;
     float: right;
+    background-color:#ebb538;
+    display: block;
+}
+#restaurantLocation{
+  width: 1000px;
+  height: 700px;
+  background-color: #535353;
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+#firstDiv{
+  height: 600px;
+  width: 1000px;
+  margin: 0 auto;
+  
+  display: block;
+}
+#restaurantImage{
+  height: 600px;
+  width: 1000px;
+ background-image: url(Assets/IMG_0434.jpg);
+ background-size: 100%;
+}
+body{
+  background-repeat: no-repeat;
 }
