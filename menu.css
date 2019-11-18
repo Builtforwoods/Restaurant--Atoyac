@@ -2,11 +2,26 @@
     height: 35px;
     width: 35px;
 }
-#itemBox{
+.itemBox{
     height: 80px;
     width: 250px;
     background-color: bisque;
     padding-left: 10px;
     padding-top: 5px;
     margin-left: 50px;
+    
+}
+#middleMenu{
+    float: right;
+    margin-right: 100px;
+}
+#addOnDiv{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#leMenuCategories{
+    float: left;
 }
