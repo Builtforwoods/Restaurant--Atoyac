@@ -27,23 +27,7 @@ nav {
         user-select: none;
         cursor: pointer; }
 
-        .nav-menu {
-            background-color: #535353;
-            color: #EFEFEF;
-            display: flex;
-            justify-content: center; }
-            .nav-menu .container {
-              padding: 1.5em;
-              display: flex; }
-              .nav-menu .container ul {
-                list-style: none; }
-                .nav-menu .container ul li {
-                  padding: 0.25em 2em; }
-                  .nav-menu .container ul li:first-child {
-                    text-transform: uppercase;
-                    color: #C3FF00;
-                    letter-spacing: 0.05em; }
-
+        
 
 body{
     background-image: url("assets/backygroundy.jpg");
@@ -73,7 +57,7 @@ body{
   height: 600px;
   width: 1000px;
   margin: 0 auto;
-  
+  margin-top: 15px;
   display: block;
 }
 #restaurantImage{
@@ -94,3 +78,30 @@ a:active {
   text-decoration: none;
   color: white;
 }
+
+@media only screen 
+  and (min-device-width : 375px) 
+  and (max-device-width : 667px) 
+  
+{
+  body{
+    background-size: 400%;
+  }
+   #itemDay{
+     height:1000px;
+     width: 1000px;
+     font-size: 50px;
+     margin-bottom: 50px;
+     position: absolute;
+   } 
+    nav{
+      height: 200px;
+    }
+    #Titulo{
+      font-size: 80px;
+    }
+    #restaurantLocation{
+      margin-top: 100px;
+      position: relative;
+    }
+  }
