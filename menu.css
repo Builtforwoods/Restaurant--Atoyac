@@ -73,18 +73,30 @@ a:active {
    #middlemenu{
        width: 1000px;
        height: 600px;
-       display: block;
-      
+       
+       
       margin-top: 500px;
+      
    }
    #addOnDiv{
        width: 900px;
        height:500px;
        font-size: 60px;
+      
    }
    #menuSubCategory{
     width: 900px;
     height: 200px;
     font-size: 80px;
+    
+
    }
+   #leMenuCategories{
+       margin-bottom: 50px;
+       position: absolute;
+       display: inline;
+       margin: 0 auto;
+       float:none;
+   }
+
   }
